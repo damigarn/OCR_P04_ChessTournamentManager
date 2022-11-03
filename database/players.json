@@ -1,0 +1,74 @@
+{
+    "_default": {
+        "1": {
+            "lastname": "McCartney",
+            "firstname": "Paul",
+            "birthday": "18/06/1942",
+            "gender": "M",
+            "elo_rating": "1600"
+        },
+        "2": {
+            "lastname": "Cobain",
+            "firstname": "Kurt",
+            "birthday": "20/02/1967",
+            "gender": "M",
+            "elo_rating": "1850"
+        },
+        "3": {
+            "lastname": "Jobs",
+            "firstname": "Steve",
+            "birthday": "24/02/1955",
+            "gender": "M",
+            "elo_rating": "2000"
+        },
+        "4": {
+            "lastname": "Lawrence",
+            "firstname": "Jennifer",
+            "birthday": "15/08/1990",
+            "gender": "F",
+            "elo_rating": "1900"
+        },
+        "5": {
+            "lastname": "Johansson",
+            "firstname": "Scarlett",
+            "birthday": "22/11/1984",
+            "gender": "F",
+            "elo_rating": "1700"
+        },
+        "6": {
+            "lastname": "Piaf",
+            "firstname": "Edith",
+            "birthday": "19/12/1915",
+            "gender": "F",
+            "elo_rating": "1500"
+        },
+        "7": {
+            "lastname": "Mandela",
+            "firstname": "Nelson",
+            "birthday": "18/07/1918",
+            "gender": "H",
+            "elo_rating": "2500"
+        },
+        "8": {
+            "lastname": "Chedid",
+            "firstname": "Matthieu",
+            "birthday": "21/12/1971",
+            "gender": "H",
+            "elo_rating": "1850"
+        },
+        "9": {
+            "lastname": "Poppins",
+            "firstname": "Mary",
+            "birthday": "01/06/1964",
+            "gender": "F",
+            "elo_rating": "1470"
+        },
+        "10": {
+            "lastname": "Bond",
+            "firstname": "James",
+            "birthday": "24/04/1985",
+            "gender": "H",
+            "elo_rating": "2000"
+        }
+    }
+}

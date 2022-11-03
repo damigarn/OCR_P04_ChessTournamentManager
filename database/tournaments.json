@@ -1,0 +1,25 @@
+{
+    "_default": {
+        "1": {
+            "id_tournament": 1,
+            "name": "Les Masters",
+            "location": "Rennes",
+            "start_date": "01/01/2023",
+            "time_control": "Bullet",
+            "description": "Le tournoi des champions",
+            "rounds_max": 4,
+            "players": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "rounds": [],
+            "ranking": []
+        }
+    }
+}
