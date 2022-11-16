@@ -1,6 +1,15 @@
-from models.player import Player
-from models.tournament import Tournament
-from models.round import Round
+from application.controllers.application import Application
+
+
+def main():
+
+    print("\n"
+          "==================================================\n"
+          "             CHESS TOURNAMENT MANAGER\n"
+          "==================================================")
+
+    Application().home()
+
 
 if __name__ == '__main__':
-    Round.save_round_to_db(Round(1, "Round 1", "01/01/1900", "02/01/1900", []))
+    main()

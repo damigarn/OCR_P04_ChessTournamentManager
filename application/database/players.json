@@ -1,13 +1,15 @@
 {
     "_default": {
         "1": {
+            "id_player": "1",
             "lastname": "McCartney",
             "firstname": "Paul",
             "birthday": "18/06/1942",
             "gender": "M",
-            "elo_rating": "1600"
+            "elo_rating": "1500"
         },
         "2": {
+            "id_player": "2",
             "lastname": "Cobain",
             "firstname": "Kurt",
             "birthday": "20/02/1967",
@@ -15,6 +17,7 @@
             "elo_rating": "1850"
         },
         "3": {
+            "id_player": "3",
             "lastname": "Jobs",
             "firstname": "Steve",
             "birthday": "24/02/1955",
@@ -22,6 +25,7 @@
             "elo_rating": "2000"
         },
         "4": {
+            "id_player": "4",
             "lastname": "Lawrence",
             "firstname": "Jennifer",
             "birthday": "15/08/1990",
@@ -29,20 +33,23 @@
             "elo_rating": "1900"
         },
         "5": {
+            "id_player": "5",
             "lastname": "Johansson",
             "firstname": "Scarlett",
             "birthday": "22/11/1984",
             "gender": "F",
-            "elo_rating": "1700"
+            "elo_rating": "1800"
         },
         "6": {
+            "id_player": "6",
             "lastname": "Piaf",
             "firstname": "Edith",
             "birthday": "19/12/1915",
             "gender": "F",
-            "elo_rating": "1500"
+            "elo_rating": "1600"
         },
         "7": {
+            "id_player": "7",
             "lastname": "Mandela",
             "firstname": "Nelson",
             "birthday": "18/07/1918",
@@ -50,6 +57,7 @@
             "elo_rating": "2500"
         },
         "8": {
+            "id_player": "8",
             "lastname": "Chedid",
             "firstname": "Matthieu",
             "birthday": "21/12/1971",
@@ -57,6 +65,7 @@
             "elo_rating": "1850"
         },
         "9": {
+            "id_player": "9",
             "lastname": "Poppins",
             "firstname": "Mary",
             "birthday": "01/06/1964",
@@ -64,11 +73,20 @@
             "elo_rating": "1470"
         },
         "10": {
+            "id_player": "10",
             "lastname": "Bond",
             "firstname": "James",
             "birthday": "24/04/1985",
             "gender": "H",
-            "elo_rating": "2000"
+            "elo_rating": "1500"
+        },
+        "11": {
+            "id_player": "11",
+            "lastname": "Marley",
+            "firstname": "Bob",
+            "birthday": "06/02/1945",
+            "gender": "M",
+            "elo_rating": "1950"
         }
     }
 }
