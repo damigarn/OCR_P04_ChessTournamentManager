@@ -14,7 +14,7 @@
     2. [MacOS et Linux](#id-section1-2)
 2. [Générer un rapport flake8](#id-section2)
 3. [Options des menus](#id-section3)
-4. [Exemples d'affichage](#section4)
+4. [Exemples d'affichage](#id-section4)
 
 
 <div id='id-section1'></div>
@@ -64,7 +64,7 @@ Dans le terminal, naviguer vers le dossier souhaité.
     $ python3 main.py
 
 ----------
-<div id='id-section1'></div>
+<div id='id-section2'></div>
 
 ## 2. Générer un rapport flake8
 
