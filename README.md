@@ -1,17 +1,20 @@
-# Chess Tournament Manager
-***OpenClassRooms Projet 4***
-![header](images/header.png)
-_Testé sous MacOS 12.6 - Python version 3.10.6_
-
+<h1 align="center">Chess Tournament Manager</h1>
+<p align="center">
+    <img src="images/header.png" alt="logo" />
+</p>
+<h4 align="center">OpenClassRooms Projet 4</h4>
+<p align="center">
+    <em>Testé sous MacOS 12.6 - Python version 3.10.6</em>
+</p>
 
 ## Table des matières
 
 1. [Initialisation du projet](#id-section1)
     1. [Windows](#id-section1-1)
     2. [MacOS et Linux](#id-section1-2)
-2. [Générer un rapport flake8](#id-section1-3)
-3. [Options des menus](#id-section2)
-4. [Exemples d'affichage](#section3)
+2. [Générer un rapport flake8](#id-section2)
+3. [Options des menus](#id-section3)
+4. [Exemples d'affichage](#section4)
 
 
 <div id='id-section1'></div>
@@ -60,10 +63,8 @@ Dans le terminal, naviguer vers le dossier souhaité.
 ###### Lancer le programme
     $ python3 main.py
 
-
-<div id='id-section1-3'></div>
-
 ----------
+<div id='id-section1'></div>
 
 ## 2. Générer un rapport flake8
 
@@ -76,7 +77,7 @@ _Dernier rapport exporté :_
 
 ![flake8_report](images/flake8_report.png)
 
-<div id='id-section2'></div>
+<div id='id-section3'></div>
 
 ## 3. Options des menus
 
@@ -84,7 +85,7 @@ _Dernier rapport exporté :_
 
 ![reports_menu](images/reports_menu.png)
 
-<div id='id-section3'></div>
+<div id='id-section4'></div>
 
 ## 4. Exemples d'affichage
 #### Gestion d'un tournoi :
