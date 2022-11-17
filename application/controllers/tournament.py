@@ -218,14 +218,19 @@ class TournamentControl:
                   "[1] Player 1 wins, [2] Player 2 wins, [3] Draw")
             for i in matches:
                 match_index = int(matches.index(i)) + 1
-                result = TournamentViews.match_result(match_index)
-                if result == "1":
-                    matches[matches.index(i)][0][1] = 1.0
-                elif result == "2":
-                    matches[matches.index(i)][1][1] = 1.0
-                elif result == "3":
-                    matches[matches.index(i)][0][1] = 0.5
-                    matches[matches.index(i)][1][1] = 0.5
+                while True:
+                    result = TournamentViews.match_result(match_index)
+                    if result in ["1", "2", "3"]:
+                        if result == "1":
+                            matches[matches.index(i)][0][1] = 1.0
+                        elif result == "2":
+                            matches[matches.index(i)][1][1] = 1.0
+                        elif result == "3":
+                            matches[matches.index(i)][0][1] = 0.5
+                            matches[matches.index(i)][1][1] = 0.5
+                        break
+                    else:
+                        MenuView.invalid_input()
 
             # Tournaments players id and scores from the database
             players = tournament.players
