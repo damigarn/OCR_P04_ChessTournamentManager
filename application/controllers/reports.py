@@ -200,7 +200,7 @@ class ReportControl:
             t_players.sort(key=lambda x: x['total_score'], reverse=True)
 
         # Table heading
-        players = [["Id",
+        players = [["Rank",
                     "Lastname",
                     "Firstname",
                     "Birthday",
@@ -209,14 +209,16 @@ class ReportControl:
                     "Total score"]]
 
         # Adding table content
+        n = 1  # used for the rank of the player
         for item in t_players:
-            players.append([item['id_player'],
+            players.append([n,
                             item['lastname'],
                             item['firstname'],
                             item['birthday'],
                             item['gender'],
                             item['elo_rating'],
                             item['total_score']])
+            n += 1
 
         # Show table
         if order == "1":
