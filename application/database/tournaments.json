@@ -55,19 +55,19 @@
             "time_control": "Rapid",
             "description": "Tournoi organis\u00e9 essentiellement pour les d\u00e9butants",
             "rounds_max": 4,
-            "current_round": 1,
+            "current_round": 2,
             "players": [
                 {
                     "id_player": "1",
-                    "total_score": 1.0
+                    "total_score": 1.5
                 },
                 {
                     "id_player": "2",
-                    "total_score": 1.0
+                    "total_score": 2.0
                 },
                 {
                     "id_player": "3",
-                    "total_score": 1.0
+                    "total_score": 1.5
                 },
                 {
                     "id_player": "4",
@@ -79,15 +79,15 @@
                 },
                 {
                     "id_player": "6",
-                    "total_score": 1.0
+                    "total_score": 1.5
                 },
                 {
                     "id_player": "7",
-                    "total_score": 1.0
+                    "total_score": 1.5
                 },
                 {
                     "id_player": "8",
-                    "total_score": 1.0
+                    "total_score": 2.0
                 }
             ],
             "rounds": [
@@ -129,6 +129,53 @@
                         [
                             [
                                 "2",
+                                0.5
+                            ],
+                            [
+                                "1",
+                                0.5
+                            ]
+                        ]
+                    ]
+                },
+                {
+                    "name": "Round 2",
+                    "start_date": "17/11/2022 - 12:44",
+                    "end_date": "17/11/2022 - 12:44",
+                    "matches": [
+                        [
+                            [
+                                "7",
+                                0.5
+                            ],
+                            [
+                                "3",
+                                0.5
+                            ]
+                        ],
+                        [
+                            [
+                                "4",
+                                0.0
+                            ],
+                            [
+                                "2",
+                                1.0
+                            ]
+                        ],
+                        [
+                            [
+                                "8",
+                                1.0
+                            ],
+                            [
+                                "5",
+                                0.0
+                            ]
+                        ],
+                        [
+                            [
+                                "6",
                                 0.5
                             ],
                             [
